@@ -1,0 +1,13 @@
+# Arduino IDE gecici dosyalar
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.tmp
+*.bak
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

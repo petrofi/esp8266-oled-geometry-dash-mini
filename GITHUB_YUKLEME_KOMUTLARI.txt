@@ -1,0 +1,21 @@
+1) GitHub: https://github.com/new
+   Repo adi: esp8266-oled-geometry-dash-mini
+   Public sec. Yeni README / .gitignore / LICENSE olusturma; dosyalarda zaten var.
+
+2) ZIP dosyasini cikart. esp8266-oled-geometry-dash-mini klasorunde
+   PowerShell ac (o klasorde README.md gorulmeli).
+
+3) Komutlari sirayla calistir:
+
+git init
+git branch -M main
+git add .
+git commit -m "Initial commit - ESP8266 OLED Geometry Dash Mini"
+git remote add origin https://github.com/petrofi/esp8266-oled-geometry-dash-mini.git
+git push -u origin main
+
+4) Repo adresi:
+https://github.com/petrofi/esp8266-oled-geometry-dash-mini
+
+NOT: Bu adres, repoyu petrofi hesabinda belirtilen adla olusturdugunda calisir.
+Git ilk kez kullaniliyorsa ad/e-posta ayari ve GitHub girisi isteyebilir.

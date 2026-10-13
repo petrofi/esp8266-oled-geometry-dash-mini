@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#0d1830"/><stop offset="1" stop-color="#07101d"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#000" flood-opacity=".25"/></filter></defs>
+<rect width="1400" height="950" fill="url(#bg)"/>
+<rect x="42" y="38" width="1316" height="868" rx="28" fill="#101e34" stroke="#284463" stroke-width="2"/>
+<text x="90" y="112" font-size="53" font-family="DejaVu Sans" font-weight="bold" fill="#f8fcff">GEOMETRY DASH MINI</text>
+<text x="90" y="163" font-size="28" font-family="DejaVu Sans" fill="#a4c2df">ESP8266 + 1.3 inç SH1106 OLED • I²C BAĞLANTI ŞEMASI</text>
+<text x="90" y="221" font-size="22" font-family="DejaVu Sans" fill="#d3e2f1">4 kablo yeterli. Telefon Wi-Fi üzerinden kontrol eder; ek buton gerekmez.</text>
+<rect x="90" y="268" width="455" height="410" rx="24" fill="#132b43" stroke="#588cb2" stroke-width="3" filter="url(#shadow)"/>
+<rect x="155" y="297" width="206" height="315" rx="17" fill="#0a1726" stroke="#6389a4" stroke-width="5"/>
+<rect x="200" y="331" width="116" height="135" rx="12" fill="#b1bcc5"/>
+<rect x="206" y="337" width="104" height="123" rx="8" fill="#b4c1c9" stroke="#8b9aa8"/>
+<text x="258" y="395" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="20" fill="#1b3340">ESP</text>
+<text x="258" y="419" text-anchor="middle" font-family="DejaVu Sans" font-size="16" fill="#1b3340">8266</text>
+<rect x="210" y="584" width="94" height="40" rx="5" fill="#c0cad6"/>
+<rect x="229" y="601" width="57" height="38" rx="5" fill="#657e94"/>
+<text x="124" y="655" fill="#e5f3ff" font-family="DejaVu Sans" font-weight="bold" font-size="23">ESP8266</text>
+<text x="125" y="697" fill="#a2c5e0" font-family="DejaVu Sans" font-size="16">NodeMCU / Wemos D1 mini</text>
+<rect x="875" y="268" width="435" height="410" rx="24" fill="#132b43" stroke="#588cb2" stroke-width="3" filter="url(#shadow)"/>
+<rect x="925" y="331" width="234" height="271" rx="12" fill="#035e9b" stroke="#49b4f1" stroke-width="5"/>
+<rect x="946" y="361" width="192" height="194" rx="5" fill="#02090c" stroke="#6589b7" stroke-width="7"/>
+<g stroke="#e8fbff" stroke-width="3" fill="none"><path d="M968 504 H1118"/><path d="M1007 494 V479 H1020 V494"/><path d="M1076 494 L1087 474 1098 494 Z"/></g>
+<text x="1045" y="638" text-anchor="middle" fill="#e6f7ff" font-family="DejaVu Sans" font-size="26" font-weight="bold">SH1106 OLED</text>
+<text x="1045" y="669" text-anchor="middle" fill="#a4cae9" font-family="DejaVu Sans" font-size="20">128×64 • I²C • 4 pin</text>
+<!-- terminal callouts -->
+<g font-family="DejaVu Sans" font-size="24" font-weight="bold">
+<rect x="380" y="348" width="130" height="47" rx="12" fill="#263442" stroke="#697a88"/><text x="445" y="381" text-anchor="middle" fill="#fff">GND</text>
+<rect x="380" y="413" width="130" height="47" rx="12" fill="#9e344a"/><text x="445" y="446" text-anchor="middle" fill="#fff">3V3</text>
+<rect x="380" y="478" width="130" height="47" rx="12" fill="#a17708"/><text x="445" y="511" text-anchor="middle" fill="#fff">D1</text>
+<rect x="380" y="543" width="130" height="47" rx="12" fill="#176dba"/><text x="445" y="576" text-anchor="middle" fill="#fff">D2</text>
+<rect x="811" y="348" width="105" height="47" rx="12" fill="#263442" stroke="#697a88"/><text x="863" y="381" text-anchor="middle" fill="#fff">GND</text>
+<rect x="811" y="413" width="105" height="47" rx="12" fill="#9e344a"/><text x="863" y="446" text-anchor="middle" fill="#fff">VCC</text>
+<rect x="811" y="478" width="105" height="47" rx="12" fill="#a17708"/><text x="863" y="511" text-anchor="middle" fill="#fff">SCL</text>
+<rect x="811" y="543" width="105" height="47" rx="12" fill="#176dba"/><text x="863" y="576" text-anchor="middle" fill="#fff">SDA</text>
+</g>
+<g fill="none" stroke-width="8" stroke-linecap="round">
+<path d="M510 372 H811" stroke="#aabac8"/>
+<path d="M510 437 H811" stroke="#fb6377"/>
+<path d="M510 502 H811" stroke="#ffd44b"/>
+<path d="M510 567 H811" stroke="#55b3ff"/>
+</g>
+<g font-family="DejaVu Sans" font-size="21" text-anchor="middle" fill="#cfdfeb">
+<text x="693" y="362">GND → GND</text><text x="691" y="428">3.3 V → VCC</text><text x="706" y="493">GPIO5 → SCL</text><text x="708" y="558">GPIO4 → SDA</text>
+</g>
+<rect x="90" y="731" width="1220" height="124" rx="18" fill="#2b2935" stroke="#e9b75b" stroke-width="2"/>
+<text x="119" y="777" fill="#ffd681" font-size="24" font-weight="bold" font-family="DejaVu Sans">DİKKAT: OLED'i 3.3 V ile besle, 5 V hattına bağlama.</text>
+<text x="119" y="814" fill="#dee5ef" font-size="21" font-family="DejaVu Sans">Pinlerin fiziksel sırası karta göre değişir. D1/D2/3V3/GND ve OLED üzerindeki yazıları esas al.</text>
+<text x="119" y="841" fill="#bbc8d5" font-size="17" font-family="DejaVu Sans">Bu şema elektriksel bağlantıyı gösterir; üreticiye göre pinlerin kart üzerindeki konumu değişebilir.</text>
+</svg>
